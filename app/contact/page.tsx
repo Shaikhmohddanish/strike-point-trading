@@ -105,9 +105,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Office Address</h3>
                       <p className="text-gray-300">
-                        Sakaram Patil Marg, Sector 1A, CBD Belapur,
+                        XYZ ADDRESS
                         <br />
-                        Navi Mumbai, Maharashtra 400614, India
+
                       </p>
                     </div>
                   </div>

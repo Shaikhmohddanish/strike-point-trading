@@ -125,7 +125,7 @@ export default function PrivacyPage() {
               <br />
               Phone: 8888888888
               <br />
-              Address: Sakaram Patil Marg, Sector 1A, CBD Belapur,<br />Navi Mumbai, Maharashtra 400614, India
+              Address: XYZ ADDRESS
             </p>
           </section>
 

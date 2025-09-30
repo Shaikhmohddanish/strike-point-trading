@@ -43,8 +43,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-300">
-              <p>Sakaram Patil Marg, Sector 1A, CBD Belapur,</p>
-              <p>Navi Mumbai, Maharashtra 400614, India</p>
+              <p>XYZ ADDRESS</p>
+
               <p className="mt-3">support@strikepointtrading.com</p>
               <p>8888888888</p>
             </div>
