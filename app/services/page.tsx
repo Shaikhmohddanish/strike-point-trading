@@ -7,7 +7,7 @@ import { TrendingUp, BarChart3, Shield, Target, Users, Clock } from "lucide-reac
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <section className="py-20 lg:py-32">
         <div className="container mx-auto px-4 text-center">
@@ -22,10 +22,10 @@ export default function ServicesPage() {
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <Card className="bg-slate-800 border-slate-700">
+            <Card className="bg-gray-900 border-slate-700">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <TrendingUp className="h-12 w-12 text-teal-400" />
+                  <TrendingUp className="h-12 w-12 text-white" />
                 </div>
                 <CardTitle className="text-center text-white">Market Research & Analysis</CardTitle>
               </CardHeader>
@@ -50,10 +50,10 @@ export default function ServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-800 border-slate-700">
+            <Card className="bg-gray-900 border-slate-700">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <BarChart3 className="h-12 w-12 text-teal-400" />
+                  <BarChart3 className="h-12 w-12 text-white" />
                 </div>
                 <CardTitle className="text-center text-white">Portfolio Management</CardTitle>
               </CardHeader>
@@ -77,10 +77,10 @@ export default function ServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-800 border-slate-700">
+            <Card className="bg-gray-900 border-slate-700">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <Shield className="h-12 w-12 text-teal-400" />
+                  <Shield className="h-12 w-12 text-white" />
                 </div>
                 <CardTitle className="text-center text-white">Risk Management</CardTitle>
               </CardHeader>
@@ -108,14 +108,14 @@ export default function ServicesPage() {
       </section>
 
       {/* Additional Services */}
-      <section className="py-16 lg:py-24 bg-slate-800">
+      <section className="py-16 lg:py-24 bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl lg:text-5xl font-bold text-center mb-16">Additional Services</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <Target className="h-12 w-12 text-teal-400" />
+                <Target className="h-12 w-12 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Trading Strategies</h3>
               <p className="text-gray-300">
@@ -125,7 +125,7 @@ export default function ServicesPage() {
 
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <Users className="h-12 w-12 text-teal-400" />
+                <Users className="h-12 w-12 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Personal Consultation</h3>
               <p className="text-gray-300">One-on-one consultation sessions with our expert analysts and traders.</p>
@@ -133,7 +133,7 @@ export default function ServicesPage() {
 
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <Clock className="h-12 w-12 text-teal-400" />
+                <Clock className="h-12 w-12 text-white" />
               </div>
               <h3 className="text-xl font-bold mb-4">Real-time Alerts</h3>
               <p className="text-gray-300">
@@ -149,7 +149,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-5xl font-bold mb-8">Ready to Transform Your Trading?</h2>
           <p className="text-xl mb-8">Get started with our comprehensive trading services today</p>
-          <Button size="lg" variant="secondary" className="bg-white text-teal-500 hover:bg-gray-100" onClick={() => (window.location.href = "tel:+919167603133")}>Contact Us Now</Button>
+          <Button size="lg" variant="secondary" className="bg-white text-teal-500 hover:bg-gray-100" onClick={() => (window.location.href = "tel:+918888888888")}>Contact Us Now</Button>
         </div>
       </section>
     </div>

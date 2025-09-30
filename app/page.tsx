@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white py-20 lg:py-32 overflow-hidden">
         <FloatingElements />
 
         {/* Animated background grid */}
@@ -31,12 +31,12 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-6xl">
             <div className="inline-flex items-center px-4 py-2 bg-teal-500/20 border border-teal-500/30 rounded-full mb-8">
-              <span className="text-teal-400 text-sm font-medium">🚀 #1 Trading Firm in India</span>
+              <span className="text-white text-sm font-medium">🚀 #1 Trading Firm in India</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold mb-8 leading-tight">
               Empowering Traders and Investors With{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 animate-gradient">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-white animate-gradient">
                 Strike Point Trading
               </span>
             </h1>
@@ -49,8 +49,8 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-6 mb-12">
               <Button
                 size="lg"
-                className="group bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                onClick={() => (window.location.href = "tel:+919167603133")}
+                className="group bg-gradient-to-r from-white to-gray-200 hover:from-gray-200 hover:to-gray-300 text-black px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                onClick={() => (window.location.href = "tel:+918888888888")}
               >
                 GET STARTED
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -64,11 +64,11 @@ export default function HomePage() {
                 <span>Live Market Data</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Shield className="h-4 w-4 text-teal-400" />
+                <Shield className="h-4 w-4 text-white" />
                 <span>Bank-Grade Security</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Users className="h-4 w-4 text-blue-400" />
+                <Users className="h-4 w-4 text-white" />
                 <span>5000+ Active Traders</span>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default function HomePage() {
       <StatsSection />
 
       {/* Common Challenges Section */}
-      <section className="py-16 lg:py-24 bg-slate-900 text-white relative overflow-hidden">
+            <section className="py-16 lg:py-24 bg-gray-900 relative overflow-hidden">
         <ParallaxSection speed={0.2}>
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20"></div>
         </ParallaxSection>
@@ -149,7 +149,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">
               Tailored{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-200">
                 Solutions
               </span>{" "}
               for Your Success
@@ -160,7 +160,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
+            <Card className="group bg-gray-900/80 backdrop-blur-sm border-slate-700/50 hover:border-gray-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/Research Insights.jpeg?height=400&width=400"
@@ -175,7 +175,7 @@ export default function HomePage() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-white transition-colors">
                   Research Insights
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -183,15 +183,15 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+919167603133")}
+                  className="text-white hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918888888888")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
+            <Card className="group bg-gray-900/80 backdrop-blur-sm border-slate-700/50 hover:border-gray-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/portfoliomanagementservice.jpg?height=400&width=400"
@@ -201,12 +201,12 @@ export default function HomePage() {
                   className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div className="absolute top-4 right-4 bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   Expert Managed
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-white transition-colors">
                   Portfolio Management
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -214,15 +214,15 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+919167603133")}
+                  className="text-white hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918888888888")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="group bg-slate-800/80 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden md:col-span-3 lg:col-span-1">
+            <Card className="group bg-gray-900/80 backdrop-blur-sm border-slate-700/50 hover:border-gray-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 overflow-hidden md:col-span-3 lg:col-span-1">
               <div className="relative overflow-hidden">
                 <Image
                   src="/images/Risk Assessment.jpg?height=400&width=400"
@@ -237,7 +237,7 @@ export default function HomePage() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-white transition-colors">
                   Risk Assessment
                 </h3>
                 <p className="text-gray-300 mb-4">
@@ -245,8 +245,8 @@ export default function HomePage() {
                 </p>
                 <Button
                   variant="ghost"
-                  className="text-teal-400 hover:text-black p-0"
-                  onClick={() => (window.location.href = "tel:+919167603133")}
+                  className="text-white hover:text-black p-0"
+                  onClick={() => (window.location.href = "tel:+918888888888")}
                 >
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -257,7 +257,7 @@ export default function HomePage() {
       </section>
 
       {/* Journey to Excellence Section */}
-      <section className="py-16 lg:py-24 bg-slate-800 text-white relative overflow-hidden">
+      <section className="py-16 lg:py-24 bg-gray-900 text-white relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -273,12 +273,12 @@ export default function HomePage() {
 
             <div>
               <div className="inline-flex items-center px-4 py-2 bg-teal-500/20 border border-teal-500/30 rounded-full mb-6">
-                <span className="text-teal-400 text-sm font-medium">Since 2018</span>
+                <span className="text-white text-sm font-medium">Since 2018</span>
               </div>
 
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
                 Our Journey to{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-200">
                   Excellence
                 </span>
               </h2>
@@ -295,7 +295,7 @@ export default function HomePage() {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                   <span className="text-gray-300">Expert market analysis</span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -310,8 +310,8 @@ export default function HomePage() {
 
               <Button
                 variant="outline"
-                className="group border-2 border-teal-400 text-black hover:bg-teal-400 hover:text-slate-900 transition-all duration-300"
-                onClick={() => (window.location.href = "tel:+919167603133")}
+                className="group border-2 border-gray-400 text-black hover:bg-gray-300 hover:text-slate-900 transition-all duration-300"
+                onClick={() => (window.location.href = "tel:+918888888888")}
               >
                 READ MORE
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
@@ -362,7 +362,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="group bg-white text-slate-900 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                onClick={() => (window.location.href = "tel:+919167603133")}
+                onClick={() => (window.location.href = "tel:+918888888888")}
               >
                 GET STARTED FREE
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -372,7 +372,7 @@ export default function HomePage() {
                 size="lg"
                 variant="outline"
                 className="border-2 border-white text-black hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300"
-                onClick={() => (window.location.href = "tel:+919167603133")}
+                onClick={() => (window.location.href = "tel:+918888888888")}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 CALL NOW
@@ -385,7 +385,7 @@ export default function HomePage() {
                 <span className="text-sm">Available Now</span>
               </div>
               <div className="w-px h-4 bg-white/30"></div>
-              <span className="text-lg font-bold">9167603133</span>
+              <span className="text-lg font-bold">8888888888</span>
             </div>
           </div>
         </div>

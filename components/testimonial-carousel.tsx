@@ -72,7 +72,7 @@ export function TestimonialCarousel() {
                 <CardContent className="p-8 lg:p-12 text-center">
                   <div className="flex justify-center mb-6">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                      <Star key={i} className="h-5 w-5 text-white fill-current" />
                     ))}
                   </div>
 
@@ -81,7 +81,7 @@ export function TestimonialCarousel() {
                   </blockquote>
 
                   <div className="flex items-center justify-center space-x-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-teal-400 to-blue-400 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-white to-gray-200 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold text-lg">
                         {testimonial.name
                           .split(" ")
@@ -91,7 +91,7 @@ export function TestimonialCarousel() {
                     </div>
                     <div>
                       <p className="font-semibold text-white text-lg">{testimonial.name}</p>
-                      <p className="text-teal-400">{testimonial.role}</p>
+                      <p className="text-white">{testimonial.role}</p>
                     </div>
                   </div>
                 </CardContent>

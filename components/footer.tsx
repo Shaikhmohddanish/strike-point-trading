@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="bg-slate-800 text-white">
+    <footer className="bg-black text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -16,25 +16,25 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
             <div className="space-y-2">
-              <Link href="/" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/" className="block text-white hover:text-gray-300 transition-colors">
                 Home
               </Link>
-              <Link href="/services" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/services" className="block text-white hover:text-gray-300 transition-colors">
                 Services
               </Link>
-              <Link href="/packages" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/packages" className="block text-white hover:text-gray-300 transition-colors">
                 Packages
               </Link>
-              <Link href="/about" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/about" className="block text-white hover:text-gray-300 transition-colors">
                 About
               </Link>
-              <Link href="/contact" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/contact" className="block text-white hover:text-gray-300 transition-colors">
                 Contact
               </Link>
-              <Link href="/terms" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/terms" className="block text-white hover:text-gray-300 transition-colors">
                 Terms & Conditions
               </Link>
-              <Link href="/privacy" className="block text-teal-400 hover:text-teal-300 transition-colors">
+              <Link href="/privacy" className="block text-white hover:text-gray-300 transition-colors">
                 Privacy Policy
               </Link>
             </div>
@@ -46,7 +46,7 @@ export function Footer() {
               <p>Sakaram Patil Marg, Sector 1A, CBD Belapur,</p>
               <p>Navi Mumbai, Maharashtra 400614, India</p>
               <p className="mt-3">support@strikepointtrading.com</p>
-              <p>9167603133</p>
+              <p>8888888888</p>
             </div>
           </div>
         </div>

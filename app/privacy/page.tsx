@@ -1,6 +1,6 @@
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white">
+    <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4 py-20">
         <h1 className="text-4xl lg:text-6xl font-bold mb-8 text-center">Privacy Policy</h1>
 
@@ -123,7 +123,7 @@ export default function PrivacyPage() {
               <br />
               Email: support@strikepointtrading.com
               <br />
-              Phone: 9167603133
+              Phone: 8888888888
               <br />
               Address: Sakaram Patil Marg, Sector 1A, CBD Belapur,<br />Navi Mumbai, Maharashtra 400614, India
             </p>
