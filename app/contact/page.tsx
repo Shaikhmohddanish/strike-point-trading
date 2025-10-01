@@ -24,29 +24,28 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Form */}
-            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300 shadow-xl">
+            <Card className="bg-gradient-to-b from-gray-900 to-black border-gray-700 hover:border-gray-400/50 transition-all duration-300 shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl lg:text-2xl text-white">Send us a Message</CardTitle>
               </CardHeader>
               <CardContent>
                 <form className="space-y-6">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-medium mb-2 text-gray-300">First Name</label>
-                      <Input
-                        type="text"
-                        placeholder="Enter your first name"
-                        className="bg-slate-700 border-slate-600 text-white"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium mb-2 text-gray-300">Last Name</label>
-                      <Input
-                        type="text"
-                        placeholder="Enter your last name"
-                        className="bg-slate-700 border-slate-600 text-white"
-                      />
-                    </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Full Name</label>
+                    <Input
+                      type="text"
+                      placeholder="Enter your full name"
+                      className="bg-gray-800 border-gray-600 text-white"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Phone</label>
+                    <Input
+                      type="tel"
+                      placeholder="Enter your phone number"
+                      className="bg-gray-800 border-gray-600 text-white"
+                    />
                   </div>
 
                   <div>
@@ -54,38 +53,20 @@ export default function ContactPage() {
                     <Input
                       type="email"
                       placeholder="Enter your email"
-                      className="bg-slate-700 border-slate-600 text-white"
+                      className="bg-gray-800 border-gray-600 text-white"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Phone Number</label>
-                    <Input
-                      type="tel"
-                      placeholder="Enter your phone number"
-                      className="bg-slate-700 border-slate-600 text-white"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Subject</label>
-                    <Input
-                      type="text"
-                      placeholder="Enter subject"
-                      className="bg-slate-700 border-slate-600 text-white"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Message</label>
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Message (optional)</label>
                     <Textarea
-                      placeholder="Enter your message"
+                      placeholder="Enter your message (optional)"
                       rows={5}
-                      className="bg-slate-700 border-slate-600 text-white"
+                      className="bg-gray-800 border-gray-600 text-white"
                     />
                   </div>
 
-                  <Button className="w-full bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white py-3">
+                  <Button className="w-full bg-gradient-to-r from-white to-gray-200 hover:from-gray-200 hover:to-gray-300 text-black py-3">
                     Send Message
                   </Button>
                 </form>
