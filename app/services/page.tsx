@@ -149,7 +149,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-5xl font-bold mb-8">Ready to Transform Your Trading?</h2>
           <p className="text-xl mb-8">Get started with our comprehensive trading services today</p>
-          <Button size="lg" variant="secondary" className="bg-white text-teal-500 hover:bg-gray-100" onClick={() => (window.location.href = "tel:+918888888888")}>Contact Us Now</Button>
+          <Button size="lg" variant="secondary" className="bg-white text-teal-500 hover:bg-gray-100" onClick={() => (window.location.href = "tel:+917506962789")}>Contact Us Now</Button>
         </div>
       </section>
     </div>

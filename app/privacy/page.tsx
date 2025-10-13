@@ -123,9 +123,9 @@ export default function PrivacyPage() {
               <br />
               Email: support@strikepointtrading.com
               <br />
-              Phone: 8888888888
+              Phone: 7506962789
               <br />
-              Address: XYZ ADDRESS
+              Address: A/104 Al-Badar, Global Park Mumbra Near Dominos Kausa Thane 400612
             </p>
           </section>
 

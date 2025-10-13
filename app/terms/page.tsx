@@ -110,7 +110,7 @@ export default function TermsPage() {
               <br />
               Email: support@strikepointtrading.com
               <br />
-              Phone: 8888888888
+              Phone: 7506962789
             </p>
           </section>
 

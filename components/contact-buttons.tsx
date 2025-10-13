@@ -9,7 +9,7 @@ export function ContactButtons() {
     const message = encodeURIComponent(
       "Hello! I'm interested in your trading services. Can you provide more information?",
     )
-    window.open(`https://wa.me/918888888888?text=${message}`, "_blank")
+    window.open(`https://wa.me/917506962789?text=${message}`, "_blank")
   }
 
   return (

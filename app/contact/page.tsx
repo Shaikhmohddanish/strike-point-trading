@@ -86,7 +86,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Office Address</h3>
                       <p className="text-gray-300">
-                        XYZ ADDRESS
+                        A/104 Al-Badar, Global Park Mumbra Near Dominos Kausa Thane 400612
                         <br />
 
                       </p>
@@ -105,11 +105,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Phone Number</h3>
-                      <p className="text-gray-300">8888888888</p>
+                      <p className="text-gray-300">7506962789</p>
                       <Button
                         variant="link"
                         className="text-white hover:text-blue-300 p-0 mt-2"
-                        onClick={() => (window.location.href = "tel:+918888888888")}
+                        onClick={() => (window.location.href = "tel:+917506962789")}
                       >
                         Call Now
                       </Button>
@@ -174,9 +174,9 @@ export default function ContactPage() {
             size="lg"
             variant="secondary"
             className="bg-white text-black hover:bg-gray-100 px-8 py-3 text-lg font-bold"
-            onClick={() => (window.location.href = "tel:+918888888888")}
+            onClick={() => (window.location.href = "tel:+917506962789")}
           >
-            Call Now: 8888888888
+            Call Now: 7506962789
           </Button>
         </div>
       </section>

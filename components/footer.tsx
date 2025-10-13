@@ -43,10 +43,10 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-300">
-              <p>XYZ ADDRESS</p>
+              <p>A/104 Al-Badar, Global Park Mumbra Near Dominos Kausa Thane 400612</p>
 
               <p className="mt-3">support@strikepointtrading.com</p>
-              <p>8888888888</p>
+              <p>7506962789</p>
             </div>
           </div>
         </div>

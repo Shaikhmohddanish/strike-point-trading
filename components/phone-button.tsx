@@ -11,7 +11,7 @@ export function PhoneButton() {
       {/* Phone Button */}
       <div className="relative">
         <Button
-          onClick={() => (window.location.href = "tel:+918888888888")}
+          onClick={() => (window.location.href = "tel:+917506962789")}
           className="rounded-full w-14 h-14 bg-white hover:bg-gray-200 shadow-lg flex items-center justify-center"
 
         >
