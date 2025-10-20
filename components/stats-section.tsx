@@ -5,7 +5,7 @@ import { TrendingUp, Users, Award, Target } from "lucide-react"
 
 export function StatsSection() {
   return (
-    <section className="py-16 lg:py-24 bg-gray-900 relative overflow-hidden">
+    <section className="py-16 lg:py-24 bg-slate-800 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
@@ -20,7 +20,7 @@ export function StatsSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-white">
             Trusted by{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-200">Thousands</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">Thousands</span>
           </h2>
           <p className="text-xl text-gray-300">Our track record speaks for itself</p>
         </div>

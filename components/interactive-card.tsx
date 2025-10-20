@@ -19,7 +19,7 @@ export function InteractiveCard({ icon: Icon, title, description, gradient, chil
 
   return (
     <Card
-      className={`group relative overflow-hidden bg-gray-900/50 backdrop-blur-sm border-slate-700/50 hover:border-gray-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 ${isHovered ? "scale-105" : ""}`}
+      className={`group relative overflow-hidden bg-slate-800/50 backdrop-blur-sm border-slate-700/50 hover:border-teal-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/20 ${isHovered ? "scale-105" : ""}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -40,7 +40,7 @@ export function InteractiveCard({ icon: Icon, title, description, gradient, chil
           </div>
         </div>
 
-        <h3 className="text-xl lg:text-2xl font-bold mb-4 text-white group-hover:text-white transition-colors duration-300">
+        <h3 className="text-xl lg:text-2xl font-bold mb-4 text-white group-hover:text-teal-400 transition-colors duration-300">
           {title}
         </h3>
 

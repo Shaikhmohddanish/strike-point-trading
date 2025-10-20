@@ -5,12 +5,12 @@ import { CheckCircle, User, Clock, Headphones } from "lucide-react"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-slate-900 text-white">
       {/* Hero Section */}
-      <section className="py-20 lg:py-32 bg-gradient-to-br from-purple-900 via-purple-800 to-purple-900">
+      <section className="py-20 lg:py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-200">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">
               Market Research Consultancy
             </span>
           </h1>
@@ -18,16 +18,16 @@ export default function AboutPage() {
       </section>
 
       {/* Our Journey to Excellence */}
-      <section className="py-16 lg:py-24 bg-gray-900">
+      <section className="py-16 lg:py-24 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold mb-8">Our Journey to Excellence</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Strike Point Trading is a premium market research consultancy based in New York City. Specializing in
+                Sky Investment Solution is a premium market research consultancy based in Bombay, India. Specializing in
                 providing in-depth analysis and strategic insights for traders and investors, they offer a wide range of
                 services tailored to meet the unique needs of each client. With a team of experienced analysts and
-                cutting-edge technology, Strike Point Trading has earned a reputation for delivering accurate and timely
+                cutting-edge technology, Sky Investment Solution has earned a reputation for delivering accurate and timely
                 market intelligence that drives profitable decision-making.
               </p>
             </div>
@@ -46,7 +46,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Mission */}
-      <section className="py-16 lg:py-24 bg-black">
+      <section className="py-16 lg:py-24 bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -71,7 +71,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Core Values */}
-      <section className="py-16 lg:py-24 bg-gray-900">
+      <section className="py-16 lg:py-24 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -79,7 +79,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 mt-1">
-                    <CheckCircle className="h-6 w-6 text-white" />
+                    <CheckCircle className="h-6 w-6 text-teal-400" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-white">Excellence:</h3>
@@ -92,7 +92,7 @@ export default function AboutPage() {
 
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 mt-1">
-                    <CheckCircle className="h-6 w-6 text-white" />
+                    <CheckCircle className="h-6 w-6 text-teal-400" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-white">Integrity:</h3>
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 mt-1">
-                    <CheckCircle className="h-6 w-6 text-white" />
+                    <CheckCircle className="h-6 w-6 text-teal-400" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-white">Innovation:</h3>
@@ -142,7 +142,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Client-Centric Approach */}
-      <section className="py-16 lg:py-24 bg-black">
+      <section className="py-16 lg:py-24 bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">Our Client-Centric Approach</h2>
@@ -153,11 +153,11 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
               <CardContent className="p-8 text-center">
                 <div className="flex justify-center mb-6">
                   <div className="w-12 h-12 bg-teal-500/20 rounded-full flex items-center justify-center">
-                    <User className="h-6 w-6 text-white" />
+                    <User className="h-6 w-6 text-teal-400" />
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Personalized Analysis</h3>
@@ -168,11 +168,11 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
               <CardContent className="p-8 text-center">
                 <div className="flex justify-center mb-6">
                   <div className="w-12 h-12 bg-teal-500/20 rounded-full flex items-center justify-center">
-                    <Clock className="h-6 w-6 text-white" />
+                    <Clock className="h-6 w-6 text-teal-400" />
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Timely Updates</h3>
@@ -183,11 +183,11 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
               <CardContent className="p-8 text-center">
                 <div className="flex justify-center mb-6">
                   <div className="w-12 h-12 bg-teal-500/20 rounded-full flex items-center justify-center">
-                    <Headphones className="h-6 w-6 text-white" />
+                    <Headphones className="h-6 w-6 text-teal-400" />
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Continuous Support</h3>
@@ -221,7 +221,7 @@ export default function AboutPage() {
 
             <div className="border-t border-white/30 pt-6 mt-6">
               <p className="text-white/90 mb-2">OR CALL US AT:</p>
-              <p className="text-2xl lg:text-3xl font-bold text-white">7506962789</p>
+              <p className="text-2xl lg:text-3xl font-bold text-white">8828727658</p>
             </div>
           </div>
         </div>

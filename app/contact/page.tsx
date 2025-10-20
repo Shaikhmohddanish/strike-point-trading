@@ -8,13 +8,13 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react"
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-slate-900 text-white">
       {/* Hero Section */}
       <section className="py-16 lg:py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Get in touch with our Strike Point Trading expert team for personalized trading solutions
+            Get in touch with our expert team for personalized trading solutions
           </p>
         </div>
       </section>
@@ -24,28 +24,29 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Form */}
-            <Card className="bg-gradient-to-b from-gray-900 to-black border-gray-700 hover:border-gray-400/50 transition-all duration-300 shadow-xl">
+            <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300 shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl lg:text-2xl text-white">Send us a Message</CardTitle>
               </CardHeader>
               <CardContent>
                 <form className="space-y-6">
-                  <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Full Name</label>
-                    <Input
-                      type="text"
-                      placeholder="Enter your full name"
-                      className="bg-gray-800 border-gray-600 text-white"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Phone</label>
-                    <Input
-                      type="tel"
-                      placeholder="Enter your phone number"
-                      className="bg-gray-800 border-gray-600 text-white"
-                    />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-sm font-medium mb-2 text-gray-300">First Name</label>
+                      <Input
+                        type="text"
+                        placeholder="Enter your first name"
+                        className="bg-slate-700 border-slate-600 text-white"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-2 text-gray-300">Last Name</label>
+                      <Input
+                        type="text"
+                        placeholder="Enter your last name"
+                        className="bg-slate-700 border-slate-600 text-white"
+                      />
+                    </div>
                   </div>
 
                   <div>
@@ -53,20 +54,38 @@ export default function ContactPage() {
                     <Input
                       type="email"
                       placeholder="Enter your email"
-                      className="bg-gray-800 border-gray-600 text-white"
+                      className="bg-slate-700 border-slate-600 text-white"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium mb-2 text-gray-300">Message (optional)</label>
-                    <Textarea
-                      placeholder="Enter your message (optional)"
-                      rows={5}
-                      className="bg-gray-800 border-gray-600 text-white"
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Phone Number</label>
+                    <Input
+                      type="tel"
+                      placeholder="Enter your phone number"
+                      className="bg-slate-700 border-slate-600 text-white"
                     />
                   </div>
 
-                  <Button className="w-full bg-gradient-to-r from-white to-gray-200 hover:from-gray-200 hover:to-gray-300 text-black py-3">
+                  <div>
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Subject</label>
+                    <Input
+                      type="text"
+                      placeholder="Enter subject"
+                      className="bg-slate-700 border-slate-600 text-white"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium mb-2 text-gray-300">Message</label>
+                    <Textarea
+                      placeholder="Enter your message"
+                      rows={5}
+                      className="bg-slate-700 border-slate-600 text-white"
+                    />
+                  </div>
+
+                  <Button className="w-full bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white py-3">
                     Send Message
                   </Button>
                 </form>
@@ -75,41 +94,39 @@ export default function ContactPage() {
 
             {/* Contact Information */}
             <div className="space-y-6 lg:space-y-8">
-              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 rounded-full bg-teal-500/20 flex items-center justify-center">
-                        <MapPin className="h-6 w-6 text-white" />
+                        <MapPin className="h-6 w-6 text-teal-400" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Office Address</h3>
                       <p className="text-gray-300">
-                        A/104 Al-Badar, Global Park Mumbra Near Dominos Kausa Thane 400612
-                        <br />
-
+                        Sky investment Solutions Room No 05, Pakiza Chawl No 7 Amrut Nagar, Dargah Road Mumbra, Thane, Maharashtra 400612
                       </p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="w-12 h-12 rounded-full bg-purple-600/20 flex items-center justify-center">
-                        <Phone className="h-6 w-6 text-white" />
+                      <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+                        <Phone className="h-6 w-6 text-blue-400" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Phone Number</h3>
-                      <p className="text-gray-300">7506962789</p>
+                      <p className="text-gray-300">8828727658</p>
                       <Button
                         variant="link"
-                        className="text-white hover:text-blue-300 p-0 mt-2"
-                        onClick={() => (window.location.href = "tel:+917506962789")}
+                        className="text-blue-400 hover:text-blue-300 p-0 mt-2"
+                        onClick={() => (window.location.href = "tel:+918828727658")}
                       >
                         Call Now
                       </Button>
@@ -118,7 +135,7 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
@@ -128,11 +145,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Email Address</h3>
-                      <p className="text-gray-300">support@strikepointtrading.com</p>
+                      <p className="text-gray-300">info@skyinvestmentsolution.com</p>
                       <Button
                         variant="link"
                         className="text-green-400 hover:text-green-300 p-0 mt-2"
-                        onClick={() => (window.location.href = "mailto:support@strikepointtrading.com")}
+                        onClick={() => (window.location.href = "mailto:info@skyinvestmentsolution.com")}
                       >
                         Email Us
                       </Button>
@@ -141,7 +158,7 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-gray-400/50 transition-all duration-300">
+              <Card className="bg-gradient-to-b from-slate-800 to-slate-900 border-slate-700 hover:border-teal-400/50 transition-all duration-300">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
@@ -173,10 +190,10 @@ export default function ContactPage() {
           <Button
             size="lg"
             variant="secondary"
-            className="bg-white text-black hover:bg-gray-100 px-8 py-3 text-lg font-bold"
-            onClick={() => (window.location.href = "tel:+917506962789")}
+            className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-bold"
+            onClick={() => (window.location.href = "tel:+918828727658")}
           >
-            Call Now: 7506962789
+            Call Now: 8828727658
           </Button>
         </div>
       </section>

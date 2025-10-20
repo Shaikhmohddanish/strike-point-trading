@@ -11,18 +11,18 @@ import { PhoneButton } from "@/components/phone-button"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Strike Point Trading - Professional Trading Solutions",
+  title: "Sky Investment Solution - Professional Trading Solutions",
   description: "Empowering Traders and Investors with market insights and professional trading solutions",
-  keywords: "trading, Strike Point Trading, stock market, investment, market analysis, trading tips, professional trading solutions",
-  authors: [{ name: "Strike Point Trading" }],
-  creator: "Strike Point Trading",
-  publisher: "Strike Point Trading",
+  keywords: "trading, intraday, stock market, investment, market analysis, trading tips",
+  authors: [{ name: "Sky Investment Solution" }],
+  creator: "Sky Investment Solution",
+  publisher: "Sky Investment Solution",
   robots: "index, follow",
   openGraph: {
-    title: "Strike Point Trading - Professional Trading Solutions",
+    title: "Sky Investment Solution - Professional Trading Solutions",
     description: "Empowering Traders and Investors with market insights and professional trading solutions",
-    url: "https://strikepointtrading.com",
-    siteName: "Strike Point Trading",
+    url: "https://skyinvestmentsolution.com",
+    siteName: "skyinvestmentsolution.com",
     type: "website",
   },
   icons: {
@@ -43,13 +43,13 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/images/Fevicon.png" type="image/png" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <DisclaimerBanner />
         <Navigation />
         <main>{children}</main>
         <Footer />
         <PhoneButton />
-        {/* <ContactButtons /> */}
+        <ContactButtons />
       </body>
     </html>
   )

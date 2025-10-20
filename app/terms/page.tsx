@@ -1,6 +1,6 @@
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-slate-900 text-white">
       <div className="container mx-auto px-4 py-20">
         <h1 className="text-4xl lg:text-6xl font-bold mb-8 text-center">Terms & Conditions</h1>
 
@@ -8,7 +8,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-white">1. Acceptance of Terms</h2>
             <p>
-              By accessing and using the services provided by Strike Point Trading ("Company", "we", "us"), you
+              By accessing and using the services provided by skyinvestmentsolution.com ("Company", "we", "us"), you
               accept and agree to be bound by the terms and provision of this agreement.
             </p>
           </section>
@@ -30,7 +30,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-white">3. Services Provided</h2>
             <p className="mb-4">
-              Strike Point Trading provides market research, analysis, and trading recommendations. Our services
+              skyinvestmentsolution.com provides market research, analysis, and trading recommendations. Our services
               include but are not limited to:
             </p>
             <ul className="list-disc list-inside space-y-2">
@@ -108,9 +108,9 @@ export default function TermsPage() {
             <p>
               For questions about these terms, please contact us at:
               <br />
-              Email: support@strikepointtrading.com
+              Email: info@skyinvestmentsolution.com
               <br />
-              Phone: 7506962789
+              Phone: 8828727658
             </p>
           </section>
 
