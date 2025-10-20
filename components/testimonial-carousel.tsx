@@ -9,7 +9,7 @@ const testimonials = [
   {
     name: "Hemant Patel",
     role: "Day Trader",
-    content: "strikepointtrading.com helped me navigate volatile markets with their insightful analysis. Highly recommended!",
+    content: "Strike Point Trading helped me navigate volatile markets with their insightful analysis. Highly recommended!",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
@@ -17,21 +17,21 @@ const testimonials = [
     name: "Ravi More",
     role: "Investment Advisor",
     content:
-      "I've seen significant growth in my portfolio since partnering with strikepointtrading.com. Their expertise is unparalleled.",
+      "I've seen significant growth in my portfolio since partnering with Strike Point Trading. Their expertise is unparalleled.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     name: "Hanif Shaikh",
     role: "Swing Trader",
-    content: "strikepointtrading.com's guidance has been invaluable in my trading journey. Their analysis is top-notch!",
+    content: "Strike Point Trading' guidance has been invaluable in my trading journey. Their analysis is top-notch!",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     name: "Dinesh Kamble",
     role: "Portfolio Manager",
-    content: "Exceptional service and accurate predictions – strikepointtrading.com truly deliver on their promises.",
+    content: "Exceptional service and accurate predictions – Strike Point Trading truly deliver on their promises.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
@@ -72,7 +72,7 @@ export function TestimonialCarousel() {
                 <CardContent className="p-8 lg:p-12 text-center">
                   <div className="flex justify-center mb-6">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                      <Star key={i} className="h-5 w-5 text-white fill-current" />
                     ))}
                   </div>
 
@@ -81,7 +81,7 @@ export function TestimonialCarousel() {
                   </blockquote>
 
                   <div className="flex items-center justify-center space-x-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-teal-400 to-blue-400 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-white to-gray-200 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold text-lg">
                         {testimonial.name
                           .split(" ")
@@ -91,7 +91,7 @@ export function TestimonialCarousel() {
                     </div>
                     <div>
                       <p className="font-semibold text-white text-lg">{testimonial.name}</p>
-                      <p className="text-teal-400">{testimonial.role}</p>
+                      <p className="text-white">{testimonial.role}</p>
                     </div>
                   </div>
                 </CardContent>

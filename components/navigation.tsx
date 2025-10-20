@@ -33,21 +33,21 @@ export function Navigation() {
   }, [pathname])
 
   return (
-    <nav className="bg-slate-800 text-white sticky top-0 z-50 shadow-lg">
+    <nav className="bg-black text-white sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center space-x-2" onClick={scrollToTop}>
             <div className="w-8 h-8 lg:w-10 lg:h-10 rounded overflow-hidden flex items-center justify-center bg-white">
               <Image
-                src="/images/logo.jpg"
-                alt="strikepointtrading.com Logo"
+                src="/images/logo.png"
+                alt="Strike Point Trading Logo"
                 width={40}
                 height={40}
                 className="object-contain w-full h-full"
                 priority
               />
             </div>
-            <span className="font-bold text-base lg:text-xl">Sky Investment Solution</span>
+            <span className="font-bold text-base lg:text-xl">Strike Point Trading</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,8 +56,8 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`hover:text-blue-400 transition-colors font-medium text-sm lg:text-base px-2 py-1 rounded ${
-                  pathname === item.href ? "text-blue-400 bg-slate-700" : ""
+                className={`hover:text-gray-300 transition-colors font-medium text-sm lg:text-base px-2 py-1 rounded ${
+                  pathname === item.href ? "text-white bg-gray-800" : ""
                 }`}
                 onClick={scrollToTop}
               >
@@ -84,8 +84,8 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`block py-3 px-2 hover:text-blue-400 transition-colors font-medium rounded ${
-                  pathname === item.href ? "text-blue-400 bg-slate-700" : ""
+                className={`block py-3 px-2 hover:text-gray-300 transition-colors font-medium rounded ${
+                  pathname === item.href ? "text-white bg-gray-800" : ""
                 }`}
                 onClick={handleNavClick}
               >
