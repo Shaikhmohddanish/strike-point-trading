@@ -43,15 +43,16 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2 text-gray-300">
-              <p>Sky investment Solutions Room No 05, Pakiza Chawl No 7 Amrut Nagar, Dargah Road Mumbra, Thane, Maharashtra 400612</p>
-              <p className="mt-3">info@skyinvestmentsolution.com</p>
-              <p>8828727658</p>
+              <p>Strike Point trading Vashi haware b wing office no 1405</p>
+              <p className="mt-3">info@strikepointtrading.com</p>
+              <p>7738928016</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>Copyright © 2025 skyinvestmentsolution.com | All Rights Reserved</p>
+          <p>Copyright © 2025 strikepointtrading.com | All Rights Reserved</p>
+          <p>Note: we are not associated with meta</p>
           <div className="mt-4 text-sm">
             <p><strong>Legal</strong></p>
             <p>This Website is NOT a part of Meta or Meta Platforms, Inc. Additionally, this site is NOT endorsed by Meta in any way</p>

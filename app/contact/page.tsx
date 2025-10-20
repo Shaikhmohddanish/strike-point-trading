@@ -105,7 +105,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Office Address</h3>
                       <p className="text-gray-300">
-                        Sky investment Solutions Room No 05, Pakiza Chawl No 7 Amrut Nagar, Dargah Road Mumbra, Thane, Maharashtra 400612
+                        Strike Point trading Vashi haware b wing office no 1405
                       </p>
                     </div>
                   </div>
@@ -122,11 +122,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Phone Number</h3>
-                      <p className="text-gray-300">8828727658</p>
+                      <p className="text-gray-300">7738928016</p>
                       <Button
                         variant="link"
                         className="text-blue-400 hover:text-blue-300 p-0 mt-2"
-                        onClick={() => (window.location.href = "tel:+918828727658")}
+                        onClick={() => (window.location.href = "tel:+917738928016")}
                       >
                         Call Now
                       </Button>
@@ -145,11 +145,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-2 text-white">Email Address</h3>
-                      <p className="text-gray-300">info@skyinvestmentsolution.com</p>
+                      <p className="text-gray-300">info@strikepointtrading.com</p>
                       <Button
                         variant="link"
                         className="text-green-400 hover:text-green-300 p-0 mt-2"
-                        onClick={() => (window.location.href = "mailto:info@skyinvestmentsolution.com")}
+                        onClick={() => (window.location.href = "mailto:info@strikepointtrading.com")}
                       >
                         Email Us
                       </Button>
@@ -191,9 +191,9 @@ export default function ContactPage() {
             size="lg"
             variant="secondary"
             className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-bold"
-            onClick={() => (window.location.href = "tel:+918828727658")}
+            onClick={() => (window.location.href = "tel:+917738928016")}
           >
-            Call Now: 8828727658
+            Call Now: 7738928016
           </Button>
         </div>
       </section>

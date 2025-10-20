@@ -73,7 +73,7 @@ export default function PackagesPage() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+918828727658")}>
+                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+917738928016")}>
                     Click Here
                   </Button>
                 </div>
@@ -136,7 +136,7 @@ export default function PackagesPage() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+918828727658")}>
+                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+917738928016")}>
                     Click Here
                   </Button>
                 </div>
@@ -190,7 +190,7 @@ export default function PackagesPage() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+918828727658")}>
+                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3" onClick={() => (window.location.href = "tel:+917738928016")}>
                     Click Here
                   </Button>
                 </div>
@@ -239,7 +239,7 @@ export default function PackagesPage() {
                   </div>
 
                   <div className="mt-6">
-                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+918828727658")}>
+                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+917738928016")}>
                       Click Here
                     </Button>
                   </div>
@@ -283,7 +283,7 @@ export default function PackagesPage() {
                   </div>
 
                   <div className="mt-6">
-                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+918828727658")}>
+                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+917738928016")}>
                       Click Here
                     </Button>
                   </div>
@@ -327,7 +327,7 @@ export default function PackagesPage() {
                   </div>
 
                   <div className="mt-6">
-                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+918828727658")}>
+                    <Button className="w-full bg-green-500 hover:bg-green-600 text-white text-sm py-2" onClick={() => (window.location.href = "tel:+917738928016")}>
                       Click Here
                     </Button>
                   </div>
@@ -347,7 +347,7 @@ export default function PackagesPage() {
           </p>
           <Button 
             className="bg-white text-blue-600 hover:bg-gray-100 text-lg font-medium px-8 py-3"
-            onClick={() => (window.location.href = "tel:+918828727658")}
+            onClick={() => (window.location.href = "tel:+917738928016")}
           >
             Call Us Now
           </Button>

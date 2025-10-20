@@ -221,7 +221,7 @@ export default function AboutPage() {
 
             <div className="border-t border-white/30 pt-6 mt-6">
               <p className="text-white/90 mb-2">OR CALL US AT:</p>
-              <p className="text-2xl lg:text-3xl font-bold text-white">8828727658</p>
+              <p className="text-2xl lg:text-3xl font-bold text-white">7738928016</p>
             </div>
           </div>
         </div>

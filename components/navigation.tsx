@@ -40,7 +40,7 @@ export function Navigation() {
             <div className="w-8 h-8 lg:w-10 lg:h-10 rounded overflow-hidden flex items-center justify-center bg-white">
               <Image
                 src="/images/logo.jpg"
-                alt="skyinvestmentsolution.com Logo"
+                alt="strikepointtrading.com Logo"
                 width={40}
                 height={40}
                 className="object-contain w-full h-full"

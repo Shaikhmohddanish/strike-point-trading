@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sky Investment Solution - Professional Trading Solutions",
     description: "Empowering Traders and Investors with market insights and professional trading solutions",
-    url: "https://skyinvestmentsolution.com",
-    siteName: "skyinvestmentsolution.com",
+    url: "https://strikepointtrading.com",
+    siteName: "strikepointtrading.com",
     type: "website",
   },
   icons: {

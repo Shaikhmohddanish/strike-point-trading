@@ -8,7 +8,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-white">1. Acceptance of Terms</h2>
             <p>
-              By accessing and using the services provided by skyinvestmentsolution.com ("Company", "we", "us"), you
+              By accessing and using the services provided by strikepointtrading.com ("Company", "we", "us"), you
               accept and agree to be bound by the terms and provision of this agreement.
             </p>
           </section>
@@ -30,7 +30,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-white">3. Services Provided</h2>
             <p className="mb-4">
-              skyinvestmentsolution.com provides market research, analysis, and trading recommendations. Our services
+              strikepointtrading.com provides market research, analysis, and trading recommendations. Our services
               include but are not limited to:
             </p>
             <ul className="list-disc list-inside space-y-2">
@@ -108,9 +108,9 @@ export default function TermsPage() {
             <p>
               For questions about these terms, please contact us at:
               <br />
-              Email: info@skyinvestmentsolution.com
+              Email: info@strikepointtrading.com
               <br />
-              Phone: 8828727658
+              Phone: 7738928016
             </p>
           </section>
 

@@ -121,11 +121,11 @@ export default function PrivacyPage() {
             <p>
               If you have any questions about this privacy policy, please contact us at:
               <br />
-              Email: info@skyinvestmentsolution.com
+              Email: info@strikepointtrading.com
               <br />
-              Phone: 8828727658
+              Phone: 7738928016
               <br />
-              Address: Sky investment Solutions Room No 05, Pakiza Chawl No 7 Amrut Nagar, Dargah Road Mumbra, Thane, Maharashtra 400612
+              Address: Strike Point trading Vashi haware b wing office no 1405
             </p>
           </section>
 
