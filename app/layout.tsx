@@ -7,6 +7,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { ContactButtons } from "@/components/contact-buttons"
 import { PhoneButton } from "@/components/phone-button"
+import HeaderTicker from "@/components/header-ticker"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -44,6 +45,7 @@ export default function RootLayout({
         <link rel="icon" href="/images/Fevicon.png" type="image/png" />
       </head>
       <body className={inter.className}>
+        <HeaderTicker />
         <DisclaimerBanner />
         <Navigation />
         <main>{children}</main>
